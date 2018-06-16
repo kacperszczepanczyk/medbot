@@ -165,6 +165,9 @@ async def friends(ctx): #todo fetch friends only on start, !addfriend and !remov
                 combinedLevels = combinedLevels + player.level
 
         formatedPlayersList = tabulate(playersArr, headers=['', '', '', ''], tablefmt="plain")
+        total = sum(vocAmounts.values())
+        if total <= 0:
+            total = 1
         await initialMessage.edit(content=formatedPlayersList)
         await topMessage.edit(content=
                               "**``MS``**``: " + str(vocAmounts["Archmage"]) + ", "
@@ -173,7 +176,7 @@ async def friends(ctx): #todo fetch friends only on start, !addfriend and !remov
                               "``**``ED``**``: " + str(vocAmounts["Druid"]) + ", "
                               "``**``total``**``: " + str(sum(vocAmounts.values())) + " online.`` \n"
                               "**``Combined levels``**``: " + str(combinedLevels) + "`` \n"
-                              "**``Average level``**``:   " + str("{0:.2f}".format(combinedLevels/sum(vocAmounts.values()))) + "``")
+                              "**``Average level``**``:   " + str("{0:.2f}".format(combinedLevels/total)) + "``")
         await ctx.channel.edit(reason=None, name="💗Friends " + str(sum(vocAmounts.values())))
 
         del findlist[:]

@@ -9,7 +9,7 @@ missing module named multiprocessing.SimpleQueue - imported by multiprocessing, 
 missing module named resource - imported by posix, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named posix - imported by os, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named _posixsubprocess - imported by subprocess, multiprocessing.util, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
-missing module named 'org.python' - imported by pickle, C:\Users\Kacper\PycharmProjects\medbot\medbot.py, xml.sax
+missing module named org - imported by pickle, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named readline - imported by cmd, code, pdb, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 excluded module named _frozen_importlib - imported by importlib, importlib.abc, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
@@ -20,8 +20,8 @@ missing module named vms_lib - imported by platform, C:\Users\Kacper\PycharmProj
 missing module named termios - imported by tty, getpass, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named grp - imported by shutil, tarfile, pathlib, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named pwd - imported by posixpath, shutil, tarfile, http.server, webbrowser, pathlib, netrc, getpass, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
-missing module named org - imported by copy, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
 missing module named _dummy_threading - imported by dummy_threading, C:\Users\Kacper\PycharmProjects\medbot\medbot.py
+missing module named 'org.python' - imported by copy, C:\Users\Kacper\PycharmProjects\medbot\medbot.py, xml.sax
 missing module named asyncio.DefaultEventLoopPolicy - imported by asyncio, asyncio.events
 missing module named nacl - imported by discord.voice_client
 missing module named _scproxy - imported by urllib.request
